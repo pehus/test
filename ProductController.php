@@ -13,10 +13,10 @@ class ProductPresenter extends BasePresenter
     /** @var App/Model/Product @inject */
     private $product;
     
-    /** @var App/components/IElasticSearchDriver @inject */
+    /** @var App/components/ElasticSearchDriver @inject */
     private $elasticSearch;
     
-    /*public function __construct(\Nette\Caching\Cache $cache, \model\Product $product, IElasticSearchDriver $elasticSearch) 
+    /*public function __construct(\Nette\Caching\Cache $cache, \model\Product $product, ElasticSearchDriver $elasticSearch) 
     {
         $this->cache = $cache;
         $this->product = $product;
